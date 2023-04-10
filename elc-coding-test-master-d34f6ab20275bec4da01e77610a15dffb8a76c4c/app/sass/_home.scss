@@ -1,0 +1,39 @@
+/**
+ * This is the central home page
+ *
+ */
+section#home {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 100px 20px 0;
+    background-image: url('/img/header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    div.content {
+        max-width: $siteWidth;
+        margin: 0 auto;
+        color: #FFF;
+    }
+}
+
+.products {
+    display: flex;
+    column-gap: 15px;
+    row-gap: 15px;
+    text-align: center;
+
+    .image-wrapper {
+        width: 100px;
+        height: 200px;
+
+        .image {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
